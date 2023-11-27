@@ -27,7 +27,3 @@ function validateForm() {
 
     return true;
 }
-function error() {
-    document.getElementById('error').style.display = 'block';
-    document.getElementById('error').style.color = 'red';
-}
