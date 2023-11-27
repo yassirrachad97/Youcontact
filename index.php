@@ -1,6 +1,8 @@
 <?php
 include("header.php");
 include('connect.php');
+if(isset($_SESSION['id'])){
+
 
 ?>
 
@@ -131,4 +133,10 @@ include('connect.php');
 </div>
 
 
-<?php include("footer.php") ?>
+<?php 
+}else{
+    header('Location: authentification.php');
+}
+
+
+include("footer.php") ?>
