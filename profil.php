@@ -26,8 +26,14 @@ include("header.php");
                                 <input class="text-muted f-w-400" type="text" value=" <?= $_SESSION["user"] ?>"  style="display:none;" id="doubleclk2">
                                 <div class="row">
                                     <div class="col-sm-6">
-                                        <p class="m-b-10 f-w-600">Email</p>
-                                        <h6 class="text-muted f-w-400"><?= $_SESSION["email"] ?></h6>
+                                    <h6 class="text-muted f-w-400">email</h6>
+                                        <p class="m-b-10 f-w-600"><?= $_SESSION["email"] ?></p>
+                                        
+                                    </div>
+                                    <div class="col-sm-6">
+                                    <h6 class="text-muted f-w-400">dateinscription</h6>
+                                        <p class="m-b-10 f-w-600"><?= $_SESSION['date']?></p>
+                                        
                                     </div>
                                
                     

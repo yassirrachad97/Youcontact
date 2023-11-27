@@ -63,6 +63,7 @@ if (isset($_POST['ok'])) {
     $_SESSION['user'] = $userName;
     $_SESSION['id'] = $userData['id'];
     $_SESSION['email']=$userData['email'];
+    $_SESSION['date']=$userData['dateinscription'];
     if ($userData !== null) {
       header('location:./profil.php');
     }
